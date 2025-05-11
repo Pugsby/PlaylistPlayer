@@ -17,6 +17,7 @@ If there is a image with the same name of a song, it will be used as the cover a
 ## How to use YouTube Playlists
 YouTube playlists are not natively supported and must be downloaded manually
 ### How to download YouTube Playlists
+#### Manual
 1. Create a folder
 2. Download <a href=https://github.com/yt-dlp/yt-dlp>yt-dlp</a>
 3. Place yt-dlp in the folder
@@ -27,5 +28,8 @@ youtube-dlp.exe -x --audio-format mp3 --embed-thumbnail -o "%(title)s.%(ext)s" <
 ```
 6. Wait for the download to finish
 7. (Optional) Delete the yt-dlp executable
+#### Auto
+1. Download <a href="https://github.com/Pugsby/YouTubeDownloader/tree/main">Youtube Downloader</a>
+2. Download the playlist using the tool.
 ## Website
 <a href="https://pugsby.github.io/PlaylistPlayer">pugsby.github.io/PlaylistPlayer</a>
