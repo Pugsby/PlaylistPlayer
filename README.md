@@ -23,7 +23,7 @@ YouTube playlists are not natively supported and must be downloaded manually
 4. Open a terminal and navigate to the folder
 5. Run the following command:
 ```bash
-youtube-dlp.exe -x --audio-format mp3 --embed-thumbnail -o "%(title)s.%(ext)s" https://www.youtube.com/watch?v=x7cBZTiBfAA
+youtube-dlp.exe -x --audio-format mp3 --embed-thumbnail -o "%(title)s.%(ext)s" <playlist url>
 ```
 6. Wait for the download to finish
 7. (Optional) Delete the yt-dlp executable
