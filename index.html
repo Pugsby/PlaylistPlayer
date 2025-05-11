@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playlist Player</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="catppuccinFrappe.css">
+    <script src="https://unpkg.com/twemoji@latest/dist/twemoji.min.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="mainContent">
+        <div class="bg"></div>
+        <div class="page">
+            <h1 class="centerText">Playlist Player</h2>
+                <p class="centerText">Playlist Player I made bc why not</p>
+            <div class="flex">
+                <div class="quarterWidthPanel" id="songNames">
+                    
+                </div>
+                <div class="threeQuarterWidthPanel">
+                    <div class="upload-section centerText" id="upload">
+                        <label for="folderUpload" class="upload-label">Upload Folder</label>
+                        <input type="file" id="folderUpload" webkitdirectory directory multiple>
+                        <p>Documentation for playlist format is at <a href="https://www.github.com/pugsby/playlistPlayer">My Github</a></p>
+                    </div>
+                    <div style="display: none;" id="player">
+                        <p>(No songs playing)</p>
+                    </div>
+                </div>
+            </div>
+            <script src="https://cdn.jsdelivr.net/npm/jsmediatags@3.9.7/dist/jsmediatags.min.js"></script>
+            <script src="script.js"></script>
+        </div>
+    </div>
+</body>
+</html>
